@@ -1,0 +1,30 @@
+{
+  "name": "mobitel-zschema-readable-error",
+  "version": "1.0.0",
+  "description": "NodeJs module for transforn errors of zSchema module to userfriendly and readable string",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --quiet --ignore-pattern '/test/' .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobitel-ltd/mobitel-zschema-readable-error.git"
+  },
+  "keywords": [
+    "z-schema",
+    "error",
+    "readable",
+    "parsing",
+    "userfriendly",
+    "json",
+    "schema",
+    "mobitel"
+  ],
+  "author": "Dmitry Furman aka PragmaWolf, Mobitel Ltd <pragmawolf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobitel-ltd/mobitel-zschema-readable-error/issues"
+  },
+  "homepage": "https://github.com/mobitel-ltd/mobitel-zschema-readable-error#readme"
+}
