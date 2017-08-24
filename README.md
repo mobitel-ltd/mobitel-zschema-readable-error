@@ -1,5 +1,5 @@
 # mobitel-zschema-readable-error
-NodeJs module for transforn errors of zSchema module to userfriendly and readable string
+NodeJs module for transforn errors of zSchema module to user friendly and readable string
 
 ## Installation
 ```
