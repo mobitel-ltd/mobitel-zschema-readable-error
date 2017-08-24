@@ -1,6 +1,10 @@
 # mobitel-zschema-readable-error
 NodeJs module for transforn errors of zSchema module to user friendly and readable string
 
+## Attention
+This module writing and testing on **NodeJs v.8.3** and **NPM v.5**.  
+Using the module in previous versions of NodeJs does not guarantee its correct operation.
+
 ## Installation
 ```
 npm i --save mobitel-zschema-readable-error
