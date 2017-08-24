@@ -1,7 +1,7 @@
 {
   "name": "mobitel-zschema-readable-error",
   "version": "1.0.0",
-  "description": "NodeJs module for transforn errors of zSchema module to userfriendly and readable string",
+  "description": "NodeJs module for transforn errors of zSchema module to user friendly and readable string",
   "main": "index.js",
   "scripts": {
     "pretest": "eslint --quiet --ignore-pattern '/test/' .",
