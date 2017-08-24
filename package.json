@@ -1,6 +1,6 @@
 {
   "name": "mobitel-zschema-readable-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJs module for transforn errors of zSchema module to user friendly and readable string",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,13 @@
   "homepage": "https://github.com/mobitel-ltd/mobitel-zschema-readable-error#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.7.0",
     "mocha": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=8.3",
+    "npm": ">=5"
   }
 }
