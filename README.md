@@ -1,16 +1,25 @@
-# mobitel-zschema-readable-error
+# Mobitel Ltd. zSchema readable error
 NodeJs module for transforn errors of zSchema module to user friendly and readable string
 
 ## Attention
-This module writing and testing on **NodeJs v.8.3** and **NPM v.5**.  
-Using the module in previous versions of NodeJs does not guarantee its correct operation.
+This module writing and testing on **NodeJs v.8+** and **NPM v.5+**.
+Using the module in previous versions of NodeJs does not guarantee correct works.
 
-## Installation
+## <a name="navigation">Navigation</a>
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
+* [License](#license)
+
+## <a name="installation">Installation</a>
+
 ```
 npm i --save mobitel-zschema-readable-error
 ```
+[<p align="right">up to navigation</p>](#navigation)
 
-## Usage
+## <a name="usage">Usage</a>
 
 ```javascript
 const ZSchema = require('z-schema');
@@ -47,11 +56,14 @@ if (!zSchema.validate(json, schema)) {
 If module can not parsing z-schema error, then return string like:
 
     Can not parsing z-schema error because get: false
+[<p align="right">up to navigation</p>](#navigation)
 
-## Test
+## <a name="testing">Test</a>
 
     npm run test
+[<p align="right">up to navigation</p>](#navigation)
 
-## License
-MIT License
+## <a name="testing">License
+MIT License.
 Copyright (c) 2017 Mobitel Ltd
+[<p align="right">up to navigation</p>](#navigation)
